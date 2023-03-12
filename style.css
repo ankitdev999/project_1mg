@@ -1,0 +1,1283 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(226, 228, 229); */
+}
+
+.header{
+    width:100%;
+    /* background-color: rgb(189, 244, 226); */
+    display: flex;
+}
+
+.logo-navbar{
+    width: 15%;
+   background-color: aliceblue;
+    height: 40px;
+    padding: 10px 0 0 35px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+}
+.content-navbar{
+    width: 65%;
+background-color: aliceblue;
+    height: 40px;
+    padding: 10px 0 0 0px;
+  
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    
+}
+/* .content-navbar{
+    background:linear-gradient(to right, rgb(154, 236, 148),pink);
+    width:75%;
+    height: 40px;
+    padding:10px 0 0 10px; ;
+} */
+
+.content-navbar ul  {
+    display: flex;
+    list-style: none;
+    padding-left: 100px;
+    /* text-decoration: none; */
+   
+}
+.content-navbar ul li a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: black;
+}
+.details-navbar{
+    width:30%;
+   background-color: aliceblue;
+    height:40px;
+    padding: 10px 0 0 0px;
+    display: flex;
+}
+.details-navbar ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+    
+    
+}
+.details-navbar ul li {
+    text-decoration: none;
+    
+   padding-left: 10px;
+}
+
+.search-main-section{
+    display: flex;
+    width: 100%;
+    height:50px;
+   
+    margin-top: 1%;
+}
+
+.search-section-1{
+    display: flex;
+    width:15%;
+  
+}.search-section-1-input{
+    width:100%;
+    
+    border-radius:10px;
+    margin: 0 10px 0 30px;
+    background: linear-gradient(to left,rgb(193, 249, 227),rgb(243, 217, 238));
+    border: none;
+    text-align: center;
+}
+.search-section-2{
+    display: flex;
+    width: 55%;
+}
+
+.search-section-2-input{
+    width:80%;
+    border-radius:10px;
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(to left,rgb(193, 249, 227),rgb(243, 217, 238));
+    border: none;
+}
+.search-section-3{
+    width:20%;
+}
+
+.seacrh-section-3-para{
+    width: 100%;
+    padding-top: 5%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.seacrh-section3-button{
+    width:10%;
+    margin-right: 5%;
+    font-size: 20px;border-radius: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+
+
+/* Dropdown menu section */
+
+.dropdown-main-div{
+    display: flex;
+    width: 100%;
+    
+}
+.dropdown-child-div{
+    display: flex;
+    width: 80%;
+   padding:2% 0% 0 1%;
+   margin: auto;
+   
+
+}
+  .selection{
+border:none;
+width: 100%;
+
+
+
+
+}/* Dropdown menu section */
+
+
+/* banner main div start */
+.banner-main-div{
+    width:100%;
+    height: 200px;
+    /* background-color: black; */
+    display: flex;
+margin-top: 2%;
+}
+.banner-1{
+    width:70%;
+
+}
+.banner-2{
+    width:30%;
+}
+.banner-img-1{
+   
+    width:100%;
+    height: 200px;
+}
+.banner-img-2{
+    width:100%;
+    height:200px;
+}
+/* banner main div end */
+/* paragraph start */
+.paragraph-main{
+
+    margin-top: 2%;
+}
+
+.paragraph-1{
+    padding-left: 20%;
+    width: 100%;
+    font-size: 25px;
+    color:rgb(185, 132, 185)
+}
+/* paragraph end */
+
+/* banner-3 start */
+.banner-3-main{
+    width:100%;
+    height:150px;
+    
+
+    background-color: rgb(245, 242, 242);
+    margin-top:3%;
+    margin-bottom: 2%;
+    
+}
+.banner3-img{
+    width:80%;
+   
+    padding-left: 15%;
+    padding-top: 2%;
+}
+
+
+
+
+
+/* banner3-end */
+
+/* featured brands start*/
+
+.featured_brands-main{
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    box-shadow:  5px solid rgb(238, 121, 121);
+  border: 2px solid grey;
+  background-color: white;
+ padding-top: 3%;
+}
+.see-All{
+    border:none;
+    background-color: orangered;
+    color: white;
+    float: right;
+}   
+
+
+.banner-3_feature{
+    width: 100%;
+ padding-left: 100px;
+    display: flex;
+    
+}
+.featured_brands-child{
+   display: flex;
+   width:100%;
+   margin: auto;
+
+flex-wrap: wrap;
+background-color: white;
+
+
+}
+
+.featured_pic{
+    width:10%;
+height:150px;
+   margin:auto;
+   display: flex;
+  
+    border-radius: 10px ;
+   
+    
+}
+.featured_pic:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 5px 5px 5px rgb(206, 229, 151);
+    border: 5px solid rgb(243, 239, 239);
+    cursor: pointer;
+   
+}.featured_pic_img{
+    width:80%;
+    height:80%;
+    /* box */
+    margin: auto;
+  
+
+}
+.featured_pic_img:hover{
+    /* box-shadow: 5px 5px 5px 5px rgb(248, 244, 246); */
+
+}
+/* start full body */
+.full_body_checkup{
+    width:100%;
+    height:80px;
+    background-color: rgb(245, 242, 242);
+    border:1px solid grey;
+    
+}
+.full_body_checkup_para{
+    padding-left: 100px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.full_body_main_content{
+width:100%;
+margin: auto;
+
+}
+.full_body_child{
+padding-left: 5%;
+display: flex;
+height:200px;
+
+}
+.full_body_box{
+width:21%;
+
+height:180px;
+border-radius: 5px;
+padding-top: 1%;
+margin:auto;
+border:1px solid grey;
+
+}
+
+.full_body_box:hover{
+    border:5px solid rgb(237, 231, 231);
+ 
+   border-radius: 10px;
+   cursor: pointer;
+}
+.full_body_para1{
+width:100%;
+display: flex;
+margin-top: 2%;
+padding-left: 5px;
+}
+.safe_main_div{
+    background-color: rgb(250, 189, 189);
+   margin-left: 5%;
+    width:70px;
+    display: flex;padding-left: 5%;
+    margin-right: 2%;
+}
+.safe_plus{
+   
+   align-items: center;
+padding-top: 1%;
+
+width:20px;
+
+
+
+   /* margin-left:50px; */
+}
+
+
+/* .safe_logo{background-color: rgb(241, 115, 115);} */
+
+
+/* .safe_logo{display: flex;} */
+
+.full_body_includes_para{
+color: grey;
+padding-left: 5px;
+}
+.tata_img_div{
+    border:2px solid grey;
+    width:30%;
+    height:50px;
+    margin-top: 1%;
+    margin-left: 1%;
+   display: flex;
+}
+.tata_img{
+width:80px;
+height:50px;
+}
+
+.ratings{
+    display: flex;
+    margin-left: 30%;
+    padding-top: 30%;
+    background-color: rgb(97, 186, 97);
+    color: rgb(0, 4, 7);
+  
+  border: 2px solid rgb(5, 10, 5);
+ border-style: dotted;
+}
+.iso_full_body{
+    padding-top: 30%;
+    padding-left: 10%;
+}
+.linethrough_full_body{
+    text-decoration: line-through;
+    color: grey;
+    padding-left: 5%;
+} 
+
+
+.price_body_checkup{
+    display: flex;
+    padding-left: 5%;
+}
+.discount_price{
+    display: flex;
+ /* padding-left: %; */
+ margin-left: 2%;
+    background-color: rgb(134, 245, 134);
+    width:25%;
+    border-style: dashed;
+    border-color: antiquewhite;
+}
+
+/* end */
+
+/* popular_categories start */
+.popular_categories_div{
+    width:100%;
+    background-color: rgb(243, 240, 240);
+    height: 80px;
+    border-top: 2px solid grey;
+    border-bottom:2px solid grey;
+    padding-top: 2%;
+}
+.popular_categories_para{
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.popular_categories_main{
+width:100%;
+height:250px;
+
+display: flex;
+
+}
+.popular_categories_child{
+    width: 30%;
+height: 250px;
+display: flex;
+
+padding-top: 20px;
+padding-left: 30px;
+
+}
+.popular_categories_box{
+
+    width: 100%;
+    height: 150px;
+margin: auto;
+
+   
+}
+.popular_categories_child:hover{
+    box-shadow: 10px 10px solid green;
+  border:2px  solid rgb(164, 165, 164);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.dabour_images{
+width:150px;
+height: 150px;
+padding-left: 5%
+;
+}
+.popular_categories_para2{
+width: 100%;
+padding-left: 5px;
+padding-top: 10px;
+
+
+}
+
+/* popular categories end */
+
+/* top_sellers_start  */
+.top_sellers_heading{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(228, 226, 225);
+ border-top: 2px solid grey;
+ border-bottom: 2px solid gray;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 20px;}
+
+
+    .top_sellers_main{
+      
+        width: 100%;
+        display: flex;
+        height: 350px;
+    }
+.top_sellers_child{
+padding-top: 30px;
+width:14%;
+height:320px;
+display: flex;
+margin: auto;
+}
+.top_sellers_child:hover{
+    border:3px solid rgb(217, 220, 217);
+    border-radius: 10px;
+}
+.top_seller_box{
+   
+    height: 220px;
+ 
+    padding-left: 5%;
+    height:280px;
+ 
+   
+    width: 100%;
+}
+
+.top_images{
+   
+width:150px;
+height:150px;
+
+}
+.top_sellers_para1{
+  padding-top: 5%;
+  width: 100%;
+}
+.top_seller_para2{ 
+padding-top: 3%;
+color:grey
+}
+.seller_mrp{
+   padding-top: 10%;
+    color: red;
+}
+.top_seller_div{
+    padding-top: 5%;
+}
+
+.seller_price_line{
+    text-decoration: line-through;
+    color: grey;
+    margin: 5%;
+}
+
+.seller_discount{
+    color: green;
+}
+
+.seller_origional_price{
+    padding-top: 3%;
+}
+/* end */
+
+
+/* antioxidants start */
+
+.antioxidants_heading{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(228, 226, 225);
+ border-top: 2px solid grey;
+ border-bottom: 2px solid gray;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 20px;}
+
+
+    .antioxidants_main{
+      
+        width: 100%;
+        display: flex;
+        height: 400px;
+    }
+.antioxidants_child{
+padding-top: 10px;
+width:11%;
+height:340px;
+display: flex;
+margin: auto;
+}
+.antioxidants_child:hover{
+    border:3px solid rgb(217, 220, 217);
+    border-radius: 10px;
+}
+.antioxidants_box{
+   
+  
+ 
+    padding-left: 5%;
+    height:400px;
+ 
+   
+    width: 100%;
+}
+
+.antioxidants_images{
+   
+width:150px;
+height:150px;
+
+}
+.antioxidants_para1{
+
+  width: 100%;
+}
+.antioxidants_para2{ 
+padding-top: 2%;
+color: grey;
+margin: auto;
+}
+.antioxidants_mrp{padding: 2%;}
+
+.antioxidants_price_line{
+    text-decoration: line-through;
+    color: grey;
+    margin: 5%;
+   
+}
+
+.antioxidants_discount{
+    color: green;
+}
+
+.antioxidants_origional_price{
+    padding-top: 3%;
+}
+/* end */
+
+
+
+
+
+/* omega fish oil ---name change required */
+
+
+
+.fish_oil_heading{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(228, 226, 225);
+ border-top: 2px solid grey;
+ border-bottom: 2px solid gray;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 20px;}
+
+
+    .fish_oil_main{
+      
+        width: 100%;
+        display: flex;
+        height: 350px;
+    }
+.fish_oil_child{
+padding-top: 30px;
+width:14%;
+height:320px;
+display: flex;
+margin: auto;
+}
+.fish_oil_child:hover{
+    border:3px solid rgb(217, 220, 217);
+    border-radius: 10px;
+}
+.fish_oil_box{
+   
+    height: 220px;
+ 
+    padding-left: 5%;
+    height:280px;
+ 
+   
+    width: 100%;
+}
+
+.fish_oil_images{
+   
+width:150px;
+height:150px;
+
+}
+.fish_oil_para1{
+  padding-top: 5%;
+}
+.fish_oil_para2{ 
+padding-top: 3%;
+}
+.fish_oil_mrp{padding: 2%;}
+
+.fish_oil_line{
+    text-decoration: line-through;
+    color: grey;
+    margin: 2%;
+}
+
+.fish_oil_discount{
+    color: green;
+}
+
+.fish_oil_origional_price{
+    padding-top: 3%;
+}
+/* end */
+
+
+
+/* health concern start  name change required */
+
+.health_concern_div{
+    width:100%;
+    background-color: rgb(243, 240, 240);
+    height: 80px;
+    border-top: 2px solid grey;
+    border-bottom:2px solid grey;
+    padding-top: 2%;
+}
+.health_concern_para{
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.health_concern_main{
+width:100%;
+height:250px;
+
+display: flex;
+
+}
+.health_concern_child{
+    width: 30%;
+height: 250px;
+display: flex;
+
+padding-top: 20px;
+padding-left: 30px;
+
+}
+.health_concern_box{
+
+    width: 100%;
+    height: 150px;
+margin: auto;
+
+   
+}
+.health_concern_child:hover{
+    box-shadow: 10px 10px solid green;
+  border:2px  solid rgb(164, 165, 164);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.health_concern_images{
+width:150px;
+height: 150px;
+padding-left: 5%
+;
+}
+.health_concern_para2{
+width: 100%;
+padding-left: 5px;
+padding-top: 10px;
+
+
+}
+
+/* end */
+
+/* start   top deals*/
+.top_deal_heading{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(228, 226, 225);
+ border-top: 2px solid grey;
+ border-bottom: 2px solid gray;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 20px;}
+
+
+    .top_deal_main{
+      
+        width: 100%;
+        display: flex;
+        height: 350px;
+    }
+.top_deal_child{
+padding-top: 30px;
+width:14%;
+height:320px;
+display: flex;
+margin: auto;
+}
+.top_deal_child:hover{
+    border:3px solid rgb(217, 220, 217);
+    border-radius: 10px;
+}
+.top_deal_box{
+   
+    height: 220px;
+ 
+    padding-left: 5%;
+    height:280px;
+ 
+   
+    width: 100%;
+}
+
+.top_deal_images{
+   
+width:150px;
+height:150px;
+
+}
+.top_deal_para1{
+  padding-top: 5%;
+}
+.top_deal_para2{ 
+padding-top: 3%;
+}
+.top_deal_mrp{padding: 2%;}
+
+.top_deal_price_line{
+    text-decoration: line-through;
+    color: grey;
+    margin: 2%;
+}
+
+.top_deal_discount{
+    color: green;
+}
+
+.top_deal_origional_price{
+    padding-top: 3%;
+}
+/* end */
+
+
+/* pathology  start */
+.pathelogy_main{
+    width:100%;
+    height:80px;
+    background-color: rgb(245, 242, 242);
+    border:1px solid grey;
+    
+}
+.pathelogy_para{
+    padding-left: 100px;
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+.pathelogy_main_content{
+width:100%;
+margin: auto;
+
+}
+.pathelogy_child{
+padding-left: 5%;
+display: flex;
+height:200px;
+
+
+}
+.pathelogy_box{
+width:21%;
+
+height:180px;
+border-radius: 5px;
+padding-top: 1%;
+margin:auto;
+border:1px solid grey;
+
+}
+
+.pathelogy_box:hover{
+    border:5px solid rgb(237, 231, 231);
+ 
+   border-radius: 10px;
+   cursor: pointer;
+}
+.pathelogy_para1{
+width:100%;
+display: flex;
+margin-top: 2%;
+padding-left: 5px;
+
+}
+.pathelogy_main_div{
+    background-color: rgb(250, 189, 189);
+   margin-left: 5%;
+    width:70px;
+    display: flex;padding-left: 5%;
+    margin-right: 2%;
+}
+.safe_plus{
+   
+   align-items: center;
+padding-top: 1%;
+
+width:20px;
+
+
+
+ 
+}
+
+.pathelogy_includes_para{
+    color: grey;
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+
+.pathelogy_includes_para1{
+color: grey;
+padding-left: 5px;
+width: 100%;
+padding-top: 20px;
+margin: auto;
+}
+
+.linethrough_full_body{
+    text-decoration: line-through;
+    color: grey;
+    padding-left: 5%;
+} 
+
+
+.pathelogy_body_checkup{
+    display: flex;
+    padding-left: 5%;
+}
+.pathelogy_price{
+    display: flex;
+ /* padding-left: %; */
+ margin-left: 2%;
+    background-color: rgb(134, 245, 134);
+    width:30%;
+    border-style: dashed;
+    border-color: antiquewhite;
+}
+
+/* end */
+
+
+/* BP monitor start */
+
+
+
+.monitors_heading{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(228, 226, 225);
+ border-top: 2px solid grey;
+ border-bottom: 2px solid gray;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 20px;}
+
+
+    .monitors_main{
+      
+        width: 100%;
+        display: flex;
+        height: 350px;
+    }
+.monitors_child{
+padding-top: 30px;
+width:14%;
+height:320px;
+display: flex;
+margin: auto;
+}
+.monitors_child:hover{
+    border:3px solid rgb(217, 220, 217);
+    border-radius: 10px;
+}
+.monitors_box{
+   
+    height: 220px;
+ 
+    padding-left: 5%;
+    height:280px;
+ 
+   
+    width: 100%;
+}
+
+.monitors_images{
+   
+width:150px;
+height:150px;
+
+}
+.monitors_para1{
+  padding-top: 5%;
+}
+.monitors_para2{ 
+padding-top: 3%;
+}
+.monitors_mrp{padding: 2%;}
+
+.monitors_price_line{
+    text-decoration: line-through;
+    color: grey;
+    margin: 2%;
+}
+
+.monitors_discount{
+    color: green;
+}
+
+.monitors_origional_price{
+    padding-top: 3%;
+}
+/* end */
+
+
+
+
+
+
+
+/* start ---babies*/
+
+.babies_heading_para{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(246, 247, 247);
+    border-top: 2px solid gray;
+    border-bottom: 2px solid grey;
+    padding:40px;
+    font-size: 20px;
+}
+.babies_main{
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    box-shadow:  5px solid rgb(238, 121, 121);
+  border: 2px solid grey;
+  background-color: white;
+ padding-top: 2%;
+}
+.babies_see-All{
+    border:none;
+    background-color: orangered;
+    color: white;
+    float: right;
+}   
+
+
+
+
+.babies-child{
+   display: flex;
+   width:100%;
+   margin: auto;
+
+flex-wrap: wrap;
+background-color: white;
+
+
+}
+
+.babies_pic{
+    width:10%;
+height:150px;
+   margin:auto;
+   display: flex;
+  
+    border-radius: 10px ;
+   
+    
+}
+.babies_pic:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 5px 5px 5px rgb(250, 155, 242);
+    border: 5px solid rgb(243, 239, 239);
+    cursor: pointer;
+   
+}.babies_pic_img{
+    width:80%;
+    height:80%;
+    /* box */
+    margin: auto;
+  
+
+}
+.trending_pic_img:hover{
+    /* box-shadow: 5px 5px 5px 5px rgb(248, 244, 246); */
+
+}
+/* end */
+/* Monsoon store */
+
+/* health concern start  name change required */
+
+.monsoon_div{
+    width:100%;
+    background-color: rgb(243, 240, 240);
+    height: 80px;
+    border-top: 2px solid grey;
+    border-bottom:2px solid grey;
+    padding-top: 2%;
+}
+.monsoon_para{
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.monsoon_main{
+width:100%;
+height:250px;
+
+display: flex;
+
+}
+.monsoon_child{
+    width: 30%;
+height: 250px;
+display: flex;
+
+padding-top: 20px;
+padding-left: 30px;
+
+}
+.monsoon_box{
+
+    width: 100%;
+    height: 150px;
+margin: auto;
+
+   
+}
+.monsoon_child:hover{
+    box-shadow: 10px 10px solid green;
+  border:2px  solid rgb(164, 165, 164);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.monsoon_images{
+width:150px;
+height: 150px;
+padding-left: 5%
+;
+}
+.monsoon_para2{
+width: 100%;
+padding-left: 5px;
+padding-top: 10px;
+
+
+}
+
+
+
+
+
+/* Radiology */
+.radiology_main{
+    width:100%;
+    height:80px;
+    background-color: rgb(245, 242, 242);
+    border:1px solid grey;
+    
+}
+.radiology_para{
+    padding-left: 100px;
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+.radiology_main_content{
+width:100%;
+margin: auto;
+
+}
+.radiology_child{
+padding-left: 5%;
+display: flex;
+height:200px;
+
+
+}
+.radiology_box{
+width:21%;
+
+height:180px;
+border-radius: 5px;
+padding-top: 1%;
+margin:auto;
+border:1px solid grey;
+
+}
+
+.radiology_box:hover{
+    border:5px solid rgb(237, 231, 231);
+ 
+   border-radius: 10px;
+   cursor: pointer;
+}
+.radiology_para1{
+width:100%;
+display: flex;
+margin-top: 2%;
+padding-left: 5px;
+
+}
+.radiology_main_div{
+    background-color: rgb(250, 189, 189);
+   margin-left: 5%;
+    width:70px;
+    display: flex;padding-left: 5%;
+    margin-right: 2%;
+}
+.safe_plus{
+   
+   align-items: center;
+padding-top: 1%;
+
+width:20px;
+
+
+
+ 
+}
+
+.radiology_includes_para{
+    color: grey;
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+
+.radiology_includes_para1{
+color: grey;
+padding-left: 5px;
+width: 100%;
+padding-top: 20px;
+margin: auto;
+}
+.tata_img_div{
+    border:2px solid grey;
+    width:30%;
+    height:50px;
+    margin-top: 1%;
+    margin-left: 1%;
+   display: flex;
+}
+.tata_img{
+width:80px;
+height:50px;
+}
+
+.ratings{
+    display: flex;
+    margin-left: 30%;
+    padding-top: 30%;
+    background-color: rgb(97, 186, 97);
+    color: rgb(0, 4, 7);
+  
+  border: 2px solid rgb(5, 10, 5);
+ border-style: dotted;
+}
+.iso_full_body{
+    padding-top: 30%;
+    padding-left: 10%;
+}
+.linethrough_full_body{
+    text-decoration: line-through;
+    color: grey;
+    padding-left: 5%;
+} 
+
+
+.radiology_body_checkup{
+    display: flex;
+    padding-left: 5%;
+}
+.discount_price{
+    display: flex;
+ /* padding-left: %; */
+ margin-left: 2%;
+    background-color: rgb(134, 245, 134);
+    width:30%;
+    border-style: dashed;
+    border-color: antiquewhite;
+}
+
+/* end */
+
+
